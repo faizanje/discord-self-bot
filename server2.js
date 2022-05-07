@@ -52,6 +52,7 @@ client2.on('message', message => {
             handleScheduleMessage(message, content)
         }
     } else {
+
         if(message.id === client.user){
             // console.log(message.content)
             // console.log('Same id', message.id ,'===' ,client.user.id)
